@@ -18,11 +18,29 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     
     //項目数の設定
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return 18
     }
     
     //セルの表示
-
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        //セルオブジェクトの作成
+        let cell:CustomCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CustomCell
+        
+        //Imageの設定
+        cell.cellImage.image = UIImage(named: "sample.png")
+        
+        if indexPath.row > 8 {
+            cell.cellImage.image = UIImage(named: "berry.png")
+        }
+        
+        //作成したセルを返す
+        return cell
+    }
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -17,6 +17,7 @@
 		1987F8061F72509800340101 /* sampleCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F8051F72509800340101 /* sampleCollectionViewUITests.swift */; };
 		1987F8141F72520900340101 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987F8131F72520900340101 /* CustomCell.swift */; };
 		1987F8161F72535800340101 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 1987F8151F72535800340101 /* sample.png */; };
+		1987F8181F7383D200340101 /* berry.png in Resources */ = {isa = PBXBuildFile; fileRef = 1987F8171F7383D200340101 /* berry.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1987F8071F72509800340101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1987F8131F72520900340101 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		1987F8151F72535800340101 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		1987F8171F7383D200340101 /* berry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = berry.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		1987F7E11F72509800340101 /* sampleCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				1987F8171F7383D200340101 /* berry.png */,
 				1987F8151F72535800340101 /* sample.png */,
 				1987F7E21F72509800340101 /* AppDelegate.swift */,
 				1987F7E41F72509800340101 /* ViewController.swift */,
@@ -243,6 +246,7 @@
 			files = (
 				1987F7F01F72509800340101 /* LaunchScreen.storyboard in Resources */,
 				1987F7ED1F72509800340101 /* Assets.xcassets in Resources */,
+				1987F8181F7383D200340101 /* berry.png in Resources */,
 				1987F7E81F72509800340101 /* Main.storyboard in Resources */,
 				1987F8161F72535800340101 /* sample.png in Resources */,
 			);
